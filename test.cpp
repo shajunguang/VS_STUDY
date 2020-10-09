@@ -7,7 +7,7 @@ void quicksort(int A[],int l,int r){
       if(A[i]<A[r]){
          swap(A[i],A[m]);
          ++m;
-         cout<<m<<": "<<A[m]<<endl;
+         //cout<<m<<": "<<A[m]<<endl;
       }
    }
    swap(A[m],A[r]);
