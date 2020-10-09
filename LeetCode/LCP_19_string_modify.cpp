@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//f[0][i]表示全红
+//f[1][i]表示红黄
+//f[2][i]表示红黄红
 int minimumOprations(const string &s){
     int n = leaves.size();
         vector<vector<int>> f(n, vector<int>(3));
