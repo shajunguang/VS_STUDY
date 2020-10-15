@@ -112,7 +112,7 @@ int dijkstra()
     memset(dist,0x3f,sizeof dist);
     dist[1]=0;
     priority_queue<PII,vector<PII>,greater<PII>> heap;
-    heap.push({{0,1}});  //first存储距离，second存储节点编号
+    heap.push({0,1});  //first存储距离，second存储节点编号
 
     while(heap.size())
     {
